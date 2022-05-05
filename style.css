@@ -17,22 +17,23 @@ nav {
 
 a {
     text-decoration: none;
+    margin: 15px;
 }
 
 #landing {
-    display: flex;
+    /*display: flex;*/
     width: 100vw;
     height: 100vh;
     background-color: blue;
 }
 #about {
-    display: flex;
+    /*display: flex;*/
     width: 100vw;
     height: 100vh;
     background-color: red;
 }
 #contact {
-    display: flex;
+    /*display: flex;*/
     width: 100vw;
     height: 100vh;
     background-color: yellow;
