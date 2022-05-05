@@ -21,20 +21,21 @@ a {
 }
 
 #landing {
-    /*display: flex;*/
     width: 100vw;
     height: 100vh;
-    background-color: blue;
+    background-color: lightblue;
 }
 #about {
-    /*display: flex;*/
     width: 100vw;
     height: 100vh;
-    background-color: red;
+    background-color: lightpink;
 }
 #contact {
-    /*display: flex;*/
     width: 100vw;
     height: 100vh;
-    background-color: yellow;
+    background-color: lightyellow;
+}
+p {
+    padding-top: 600px;
+    margin-top: -8px;
 }
