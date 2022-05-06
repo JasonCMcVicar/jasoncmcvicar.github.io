@@ -40,6 +40,7 @@ a {
     border-color:antiquewhite;
     border-radius: 80px;
     border-width: 20px;
+    margin-right: 20px;
 }
 
 #about {
@@ -68,6 +69,7 @@ a {
     margin-left: 50px;
 }
 #bottom {
+    padding-top: 30px;
     margin-left: 100px;
     display: block;
 }
