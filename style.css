@@ -1,11 +1,14 @@
 html {
     scroll-behavior: smooth;
+    font-family: monospace;
+    font-size: 16px;
+
 }
 
 nav {
     position: fixed;
     display: flex;
-    background-color: hsl(10, 75%, 60%);
+    background-color: darkred;
     width: 100%;
     height: 50px;
     margin-left: -8px;
@@ -22,21 +25,77 @@ a {
 }
 
 #landing {
+    display: flex;
+    padding-top: 250px;
+    align-content: center;
+    justify-content: space-evenly;
     width: 100vw;
     height: 100vh;
-    background-color: lightblue;
+    background-color: #efefef;
+    font-size: 25px;
+    color: rgb(71, 49, 49);
 }
+#mypic {
+    border: solid;
+    border-color:antiquewhite;
+    border-radius: 80px;
+    border-width: 20px;
+}
+
 #about {
     width: 100vw;
     height: 100vh;
     background-color: lightpink;
+    padding-top: 70px;
 }
+#top {
+    margin-left: 50px;
+    max-width: 700px;
+}
+#aboutme_p {
+    border: solid;
+    border-width: 3px;
+    border-color: brown;
+    padding: 7px;
+    border-radius: 10px;
+}
+#mycomic {
+    margin-left: 50px;
+}
+#bottom {
+    margin-left: 100px;
+    display: block;
+}
+
+
 #contact {
+    display: flex;
+    flex-direction: column;
     width: 100vw;
     height: 100vh;
     background-color: lightyellow;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
 }
-p {
-    padding-top: 600px;
-    margin-top: -8px;
+
+@media (max-width: 700px) {
+
+html {
+    font-size: 14px;
+}
+#landing {
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+#mypic {
+    margin-left: 150px;
+    margin-top: -200px;
+}
+#opening {
+    margin-left: 100px;
+    margin-top: -350px;
+}
+
 }
